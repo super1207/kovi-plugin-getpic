@@ -7,8 +7,10 @@
 
 ## 安装
 
-见[Kovi项目主页](https://github.com/Threkork/Kovi)，我也不知道怎么安装，反正在我电脑上跑起来了，相信你也可以。
-
+详见 [Kovi项目主页](https://github.com/Threkork/Kovi)
+```bash
+cargo add --git https://github.com/super1207/kovi-plugin-getpic.git kovi-plugin-getpic
+```
 
 ## 参考
 
