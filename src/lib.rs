@@ -8,7 +8,7 @@ use kovi::tokio;
 use base64::{Engine as _, engine::{self, general_purpose}, alphabet};
 const BASE64_CUSTOM_ENGINE: engine::GeneralPurpose = engine::GeneralPurpose::new(&alphabet::STANDARD, general_purpose::PAD);
 
-const PLUS_NAME:&str = "https://api.lolicon.app/setu/v2";
+const PLUS_NAME:&str = "GETPIC";
 
 
 fn get_random() -> Result<usize, getrandom::Error> {
